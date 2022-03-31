@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="VISION.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <connectionStrings>
+        <add name="VISION.My.MySettings.collegeConnectionString" connectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Database\college.accdb"
+            providerName="System.Data.OleDb" />
+        <add name="VISION.My.MySettings.collegeConnectionString1" connectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\college.accdb"
+            providerName="System.Data.OleDb" />
+    </connectionStrings>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    </startup>
+    <userSettings>
+        <VISION.My.MySettings>
+            <setting name="Username" serializeAs="String">
+                <value>Admin</value>
+            </setting>
+            <setting name="Password" serializeAs="String">
+                <value>admin</value>
+            </setting>
+        </VISION.My.MySettings>
+    </userSettings>
+</configuration>

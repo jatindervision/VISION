@@ -33,4 +33,8 @@
     Private Sub LabelCopyright_Click(sender As Object, e As EventArgs) Handles LabelCopyright.Click
 
     End Sub
+
+    Private Sub LabelCompanyName_Click(sender As Object, e As EventArgs) Handles LabelCompanyName.Click
+
+    End Sub
 End Class
